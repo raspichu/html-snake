@@ -38,9 +38,9 @@ function keyPressed() {
         case RIGHT_ARROW: if (s.xSpeed !== -1) { s.direction(1, 0) }; break;
     }
 }
-function mousePressed() {
-    s.points++;
-}
+// function mousePressed() {
+//     s.points++;
+// }
 function restart() {
     alert('You lost!')
     s = new snake();
